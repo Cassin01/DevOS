@@ -18,3 +18,9 @@ loadkeys us
 http://tkygtr6.hatenablog.com/entry/2018/02/25/201410
 
 少し参考書と違うところがある(単純な間違いと思われる。)
+h8writeディレクトリがないので作る。
+
+# 注意事項
+
+make writeはsuでないと実行できない.
+
