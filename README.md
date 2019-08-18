@@ -22,5 +22,6 @@ h8writeディレクトリがないので作る。
 
 ## 注意事項
 
-make writeはsuでないと実行できない.
+- make writeはsuでないと実行できない。
 
+- シリアルファイルはminicomを使用する場合``/dev/serial/by-id/usb-FTDI_USB_Serial_Conveter_FTEFGBJ1-if00-port0``だと長すぎる。代わりに``/dev/ttyUSB0``が使用できる。
