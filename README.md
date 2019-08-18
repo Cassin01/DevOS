@@ -28,4 +28,4 @@ h8writeディレクトリがないので作る。
 
 - シリアルファイルはminicomを使用する場合``/dev/serial/by-id/usb-FTDI_USB_Serial_Conveter_FTEFGBJ1-if00-port0``だと長すぎる為記述できない。代わりに``/dev/ttyUSB0``が使用できる。
 
-- ``C+a x`` で終了
+- ``Ca x`` で終了
