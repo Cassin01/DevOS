@@ -28,6 +28,10 @@ h8writeディレクトリがないので作る。
 
 - シリアルファイルはminicomを使用する場合``/dev/serial/by-id/usb-FTDI_USB_Serial_Conveter_FTEFGBJ1-if00-port0``だと長すぎる為記述できない。代わりに``/dev/ttyUSB0``が使用できる。
 
+- ``minicom -s -o`` で設定画面起動
+
+- ``minicom -o`` で通常起動
+
 - ``C-a s`` で転送ファイル指定
 
 - ``C-a x`` で終了
